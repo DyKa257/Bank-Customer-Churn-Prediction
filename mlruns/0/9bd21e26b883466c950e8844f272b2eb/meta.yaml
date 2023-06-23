@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/DS/bank_customer_churn_prediction/mlruns/0/9bd21e26b883466c950e8844f272b2eb/artifacts
+end_time: 1686889692687
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9bd21e26b883466c950e8844f272b2eb
+run_name: stylish-moose-58
+run_uuid: 9bd21e26b883466c950e8844f272b2eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686889686189
+status: 3
+tags: []
+user_id: ABC

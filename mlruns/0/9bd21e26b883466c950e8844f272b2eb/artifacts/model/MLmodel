@@ -1,0 +1,30 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.8.0
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 1.7.5
+mlflow_version: 2.4.0
+model_uuid: b6ed75b36b2e4c03b0748b17ec6ea278
+run_id: 9bd21e26b883466c950e8844f272b2eb
+signature:
+  inputs: '[{"type": "integer", "name": "Geography_France"}, {"type": "integer", "name":
+    "Geography_Germany"}, {"type": "integer", "name": "Geography_Spain"}, {"type":
+    "integer", "name": "Gender_Female"}, {"type": "integer", "name": "Gender_Male"},
+    {"type": "long", "name": "HasCrCard"}, {"type": "long", "name": "IsActiveMember"},
+    {"type": "double", "name": "CreditScore"}, {"type": "double", "name": "Age"},
+    {"type": "double", "name": "Tenure"}, {"type": "double", "name": "Balance"}, {"type":
+    "double", "name": "NumOfProducts"}, {"type": "double", "name": "EstimatedSalary"},
+    {"type": "double", "name": "BalanceSalaryRatio"}, {"type": "double", "name": "TenureByAge"},
+    {"type": "double", "name": "CreditScoreGivenAge"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+utc_time_created: '2023-06-16 04:28:07.865280'
